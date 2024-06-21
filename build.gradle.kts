@@ -17,6 +17,7 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("com.moandjiezana.toml:toml4j:0.7.2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
